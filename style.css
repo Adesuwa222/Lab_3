@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+}
+
+button {
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+  padding: 8px 18px;
+  margin: 5px;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+  color: #000000;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #eeeeee;
+}
+
+/* the story button that is chosen */
+button.active {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+#photo {
+  width: 340px;
+  height: 260px;
+  object-fit: contain;
+  border: 1px solid #000000;
+}
+
+#caption {
+  max-width: 340px;
+  margin-bottom: 20px;
+}
